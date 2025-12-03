@@ -5,7 +5,7 @@ pipeline {
       
       stage('clone project') {
             steps {
-                      git branch:'main' , url:'https://github.com/tsarjun/b7-java.git'  
+                      git branch:'main',url:'https://github.com/tsarjun/b7-java.git'  
               }
       }
 
